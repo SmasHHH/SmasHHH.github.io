@@ -4,31 +4,31 @@ body {
 }
 
 #title{
-	color: white;
-	font-size: 60px;
+	color: gold;
+	font-size: 4em;
 }
 
 #caption{
 	color: white;
-	font-size: 24px;
+	font-size: 1.4em;
 }
 
 .plan{
 	font-size: 2em;
 	background: rgb(45, 48, 54);
-	margin: 20px;
-	flex-basis: 320px;
+	margin: 0.3em;
+	flex-basis: 10em;
 }
 
 
 .plan-details{
-	margin-top: 50px;
-	font-size: 30px;
+	margin-top: 2em;
+	font-size: 1em;
 }
 
 .free-details{
-	font-size: 50px;
-	margin-top: 90px;
+	font-size: 2em;
+	margin-top: 1.5em;
 }
 
 #plan-flex{
