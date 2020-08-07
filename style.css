@@ -45,9 +45,36 @@ body {
 	align-items: stretch;
 }
 
-.span-color{
+#span-gold{
+	background: url(gold-background.jpg);
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	padding-top: 1em;
+	border-bottom: dashed;
 	display: flex;
 	justify-content: center;
-	margin-top: 1em;
 	color: black;
 }
+
+#span-silver{
+	background: url(silver-background.jpg);
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	padding-top: 1em;
+	border-bottom: dashed;
+	display: flex;
+	justify-content: center;
+	color: black;
+}
+
+#span-bronze{
+	background: url(bronze-background.jpg);
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	padding-top: 1em;
+	border-bottom: dashed;
+	display: flex;
+	justify-content: center;
+	color: black;
+}
+
