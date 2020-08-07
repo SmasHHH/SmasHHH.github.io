@@ -3,6 +3,16 @@ body {
 	font-family: 'Orbitron', sans-serif;
 }
 
+#title{
+	color: gold;
+	font-size: 60px;
+}
+
+#caption{
+	color: white;
+	font-size: 24px;
+}
+
 .plan{
 	font-size: 2em;
 	background: rgb(45, 48, 54);
@@ -13,11 +23,11 @@ body {
 
 .plan-details{
 	margin-top: 50px;
-	font-size: 1em;
+	font-size: 30px;
 }
 
 .free-details{
-	font-size: 1.50em;
+	font-size: 50px;
 	margin-top: 90px;
 }
 
