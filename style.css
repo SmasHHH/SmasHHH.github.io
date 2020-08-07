@@ -15,18 +15,25 @@ body {
 
 .plan{
 	font-size: 2em;
-	background: rgb(45, 48, 54);
+	background: white;
 	margin: 0.3em;
 	flex-basis: 10em;
+	border-radius: 20px
 }
 
 
 .plan-details{
+	height: 10em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	color: black;
 	margin-top: 2em;
-	font-size: 1em;
+	font-size: 0.7em;
 }
 
 .free-details{
+	color: black;
 	font-size: 2em;
 	margin-top: 1.5em;
 }
@@ -36,4 +43,11 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: stretch;
+}
+
+.span-color{
+	display: flex;
+	justify-content: center;
+	margin-top: 1em;
+	color: black;
 }
