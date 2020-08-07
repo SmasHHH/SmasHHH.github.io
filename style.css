@@ -8,6 +8,7 @@ body {
 	font-size: 2em;
 	background: rgb(45, 48, 54);
 	margin: 20px;
+	flex-basis: auto;
 }
 
 
