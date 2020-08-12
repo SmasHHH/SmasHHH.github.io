@@ -5,76 +5,79 @@ body {
 
 #title{
 	color: gold;
-	font-size: 4em;
+	font-size: 4rem;
 }
 
 #caption{
 	color: white;
-	font-size: 1.4em;
+	font-size: 1.4rem;
 }
 
-.plan{
-	font-size: 2em;
-	background: white;
-	margin: 0.3em;
-	flex-basis: 10em;
-	border-radius: 20px
-}
-
-
-.plan-details{
-	height: 10em;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	color: black;
-	margin-top: 2em;
-	font-size: 0.7em;
-}
-
-.free-details{
-	color: black;
-	font-size: 2em;
-	margin-top: 1.5em;
-}
-
-#plan-flex{
-	height: 30em;
-	display: flex;
+#plan-grid{
+	display: grid;
+	grid-template-columns: 20% 20% 20%;
 	justify-content: center;
-	align-items: stretch;
+	grid-template-rows: auto;
+	width: 100%;
 }
 
-#span-gold{
+.paid-plan{
+	background-color: white;
+	height: 25rem;
+	border-radius: 1rem;
+	width: 90%;
+
+}
+
+#free-plan{
+	background-color: white;
+	height: 25rem;
+	border-radius: 1rem;
+	width: 90%
+}
+.paid{
+	display: grid;
+	grid-template-rows: 5rem auto auto auto auto;
+	font-size: 1.1rem;
+	color: black;
+	grid-row-gap: 3em; 
+}
+
+#gold-header{
+	border-top-right-radius: 1rem;
+	border-top-left-radius: 1rem;
 	background: url(gold-background.jpg);
-	border-top-right-radius: 20px;
-	border-top-left-radius: 20px;
-	padding-top: 1em;
+	display: grid;
+	align-content: center;
+	font-size: 1.8rem; 
 	border-bottom: dashed;
-	display: flex;
-	justify-content: center;
-	color: black;
 }
 
-#span-silver{
+#silver-header{
+	border-top-right-radius: 1rem;
+	border-top-left-radius: 1rem;
 	background: url(silver-background.jpg);
-	border-top-right-radius: 20px;
-	border-top-left-radius: 20px;
-	padding-top: 1em;
+	display: grid;
+	align-content: center;
+	font-size: 1.8rem; 
 	border-bottom: dashed;
-	display: flex;
-	justify-content: center;
-	color: black;
 }
 
-#span-bronze{
-	background: url(bronze-background.jpg);
-	border-top-right-radius: 20px;
-	border-top-left-radius: 20px;
-	padding-top: 1em;
+#bronze-header{
+	border-top-right-radius: 1rem;
+	border-top-left-radius: 1rem;
+	background: url(bronze-background1.jpg);
+	background-size: cover;
+	display: grid;
+	align-content: center;
+	font-size: 1.8rem; 
 	border-bottom: dashed;
-	display: flex;
-	justify-content: center;
-	color: black;
 }
 
+#free{
+	display: grid;
+	grid-template-rows: 5rem auto;
+	color: black;
+	font-size: 3rem;
+	grid-row-gap: 5rem;
+}
