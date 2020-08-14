@@ -86,6 +86,6 @@ body {
 	display: grid;
 	grid-template-rows: 5rem auto;
 	color: rgb(72, 72, 74);
-	font-size: 50px;
+	font-size: 3vw;
 	grid-row-gap: 5rem;
 }
